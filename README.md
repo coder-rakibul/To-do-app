@@ -1,0 +1,17 @@
+<h1 align="center">Under construction</h1>
+
+![TODOAPP](Images/imag.png)
+
+
+### Content: To Do App
+### The same: Other to do aplication
+### Live damo: [Start todo]()
+
+<h1 align="center">Features that will be</h1>
+
+### 1. Time can be seen here
+### 2. Job lists can be added and deleted
+### 3. Written text can be edited
+### 4. It will have three types of validity
+### 5. It will have several types of validation
+### 6. This app will present nicely on all devices
