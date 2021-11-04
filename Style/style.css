@@ -64,10 +64,11 @@ h6 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
-    color: white;
+    color: rgb(255 250 187);
     height: 220px;
     border-radius: 30px 30px 0px 0px;
     margin-top: 14px;
+    font-size: 18px;
 }
 
 .images {
@@ -112,7 +113,7 @@ form.inputElement {
     text-align: center;
 }
 
-input[type="text"] {
+#inputs {
     outline: none;
     padding: 8px 18px;
     font-size: 24px;
@@ -125,13 +126,13 @@ input[type="text"] {
     font-family: "Josefin Sans", sans-serif;
 }
 
-input[type="text"]::selection {
+#inputs input[type="text"]::selection {
     background: #123596;
     color: white;
 }
 
 input::placeholder {
-    color: white;
+    color: #d6d6d6;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -149,11 +150,11 @@ To Do List Item Code
     float: right;
     padding: 7px;
     position: relative;
-    top: -46px;
+    top: -44px;
     left: -35px;
     font-size: 30px;
     width: 48px;
-    height: 46px;
+    height: 44px;
     border-radius: 0px 10px;
 }
 
@@ -164,8 +165,31 @@ To Do List Item Code
     padding: 12px 18px;
     margin: 5px 0px;
     cursor: context-menu;
+    color: #d6d6d6;
     border-radius: 8px;
 }
+
+
+/* Exparimant */
+
+input#taskInfo {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #d6d6d6;
+}
+
+input#taskInfo::selection {
+    background: #123596;
+}
+
+/* input::placeholder {
+    color: white !important;
+} */
+
+/* Dowon */
+
 
 
 .todo {
@@ -196,12 +220,38 @@ i.far.fa-trash-alt:hover {
     color: red;
 }
 
+i {
+    cursor: pointer !important;
+}
+
 .symbolI {
     display: initial;
     float: left;
     padding-right: 10px;
 }
 
-i {
-    cursor: pointer !important;
+.symbolI i {
+    color: rgb(0, 179, 192);
+    transition: all .5s;
+}
+
+.symbolI i:hover {
+    color: rgb(33, 165, 0);
+}
+
+.todo ul li:hover {
+    background: #153453ce;
+    box-shadow: #153453ce 1px 1px 10px;
+    zoom: 100px;
+}
+
+.icons span {
+    font-size: 12px;
+    margin-right: 23px;
+}
+
+
+i.far.fa-edit:hover {
+    color: #1e6fc0;
+    transition: all .2s;
 }
