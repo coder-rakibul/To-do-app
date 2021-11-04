@@ -22,7 +22,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    background: #90adff;
+    background: #3c7f96;
 }
 
 /* Bicic Sectiom */
@@ -88,10 +88,11 @@ section.todoOption {
     overflow: hidden;
     padding: 15px;
     width: fit-content;
-    background: #2e3d6863;
+    background: #2e3d6894;
     color: white;
     width: 700px;
     text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 
 input[type="text"] {
