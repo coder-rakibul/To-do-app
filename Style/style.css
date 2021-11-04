@@ -7,4 +7,77 @@
 * font-family: 'Comfortaa', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 /* ****************************************************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Bicic Sectiom */
+section {
+    width: fit-content;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+} */
+
+/* section#clockSite {
+    overflow: hidden;
+} */
+.images .clock {
+    background-image: url(../Images/do-not-give-up.jpg);
+    padding: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 220px;
+    border-radius: 4px;
+    /* padding: 10px; */
+}
+
+.images {
+    width: 700px;
+    /* height: 300px; */
+
+}
+
+.clock {
+    /* width: fit-content;
+    margin: auto; */
+    text-align: center;
+    font-family: 'Comfortaa', cursive !important;
+}
+
+.clock h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.clock span {
+    display: inline;
+}
+
+.clock h1 {
+    display: inline;
+}
