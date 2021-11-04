@@ -188,6 +188,12 @@ To Do List Item Code
 
 .icons i.fa-trash-alt {
     padding: 0px 0px 0px 15px;
+    color: #940000;
+    transition: all .5s;
+}
+
+i.far.fa-trash-alt:hover {
+    color: red;
 }
 
 .symbolI {
