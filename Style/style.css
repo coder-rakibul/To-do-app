@@ -34,6 +34,10 @@ body {
     background: #3c7f96;
 }
 
+::selection {
+    background: none;
+}
+
 section {
     width: fit-content;
     overflow: hidden;
@@ -121,6 +125,11 @@ input[type="text"] {
     font-family: "Josefin Sans", sans-serif;
 }
 
+input[type="text"]::selection {
+    background: #123596;
+    color: white;
+}
+
 input::placeholder {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -149,9 +158,13 @@ To Do List Item Code
 }
 
 .todo ul li {
-    background: red;
-    font-size: 21px;
+    background: #194066;
+    font-size: 20px;
     font-family: 'Comfortaa', cursive !important;
+    padding: 12px 18px;
+    margin: 5px 0px;
+    cursor: context-menu;
+    border-radius: 8px;
 }
 
 
@@ -165,4 +178,24 @@ To Do List Item Code
     list-style: none;
     margin: auto;
     border-radius: 6px;
+}
+
+.icons {
+    display: initial;
+    float: right;
+    padding: 0px;
+}
+
+.icons i.fa-trash-alt {
+    padding: 0px 0px 0px 15px;
+}
+
+.symbolI {
+    display: initial;
+    float: left;
+    padding-right: 10px;
+}
+
+i {
+    cursor: pointer !important;
 }
