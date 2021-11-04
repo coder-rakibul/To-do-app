@@ -91,22 +91,26 @@ section.todoOption {
     background: #2e3d6894;
     color: white;
     width: 700px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 0px 0px 10px 10px;
+}
+
+form.inputElement {
+    align-items: center;
+    text-align: center;
 }
 
 input[type="text"] {
     outline: none;
-    border: none;
     padding: 8px 18px;
     font-size: 24px;
     width: 600px;
     border-radius: 12px;
-    outline-color: red red red;
-    background: #434d7e;
-    border: 2px solid #2a3860;
+    background: rgb(67, 77, 126);
+    border: 2px solid rgb(42, 56, 96);
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 9px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 input::placeholder {
@@ -131,3 +135,51 @@ input::placeholder {
     height: 46px;
     border-radius: 0px 10px;
 }
+
+.todo ul li {
+    background: red;
+    /* margin: 5px; */
+    font-size: 21px;
+    font-family: 'Comfortaa', cursive !important;
+}
+
+form.inputElement {
+    align-items: center;
+    text-align: center;
+}
+
+.todo {
+    /* overflow: hidden; */
+    /* width: 70%; */
+    /* margin: auto; */
+    width: 80%;
+    margin: auto;
+}
+
+/* ul {} */
+
+.todo ul {
+    padding: 15px 1px;
+    list-style: none;
+    margin: auto;
+    /* width: 100%; */
+    border-radius: 6px;
+}
+
+/* .todo ul li {
+    padding: 9px 24px;
+    font-size: 20px;
+    background: red;
+    margin: 2px 0px;
+    width: 100%;
+    /* border-radius: 4px; */
+/* }
+
+*/
+/* .todo ul li:first-child {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.todo ul li:last-child {
+    border-radius: 0px 0px 10px 10px;
+} */
