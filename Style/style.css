@@ -22,6 +22,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
+    background: #90adff;
 }
 
 /* Bicic Sectiom */
@@ -52,8 +53,9 @@ h6 {
     background-size: 100%;
     color: white;
     height: 220px;
-    border-radius: 4px;
+    border-radius: 30px 30px 0px 0px;
     /* padding: 10px; */
+    margin-top: 14px;
 }
 
 .images {
@@ -80,4 +82,51 @@ h6 {
 
 .clock h1 {
     display: inline;
+}
+
+section.todoOption {
+    overflow: hidden;
+    padding: 15px;
+    width: fit-content;
+    background: #2e3d6863;
+    color: white;
+    width: 700px;
+    text-align: center;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    padding: 8px 18px;
+    font-size: 24px;
+    width: 600px;
+    border-radius: 12px;
+    outline-color: red red red;
+    background: #434d7e;
+    border: 2px solid #2a3860;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input::placeholder {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.add a i {
+    color: white;
+}
+
+.add {
+    width: fit-content;
+    background: #2a3860;
+    float: right;
+    padding: 7px;
+    position: relative;
+    top: -46px;
+    left: -35px;
+    font-size: 30px;
+    width: 48px;
+    height: 46px;
+    border-radius: 0px 10px;
 }
