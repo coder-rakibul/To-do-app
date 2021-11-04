@@ -1,3 +1,9 @@
+/*  
+*   Athor Name: Rakibul Islam
+*   App Name: To do list
+*   File exe: .css
+*/
+
 /* 
 * Fonts
 * font-family: 'Josefin Sans', sans-serif;
@@ -9,6 +15,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 /* ****************************************************** */
+/*****************************
+Compn Css Code
+*****************************/
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +34,6 @@ body {
     background: #3c7f96;
 }
 
-/* Bicic Sectiom */
 section {
     width: fit-content;
     overflow: hidden;
@@ -33,18 +41,19 @@ section {
 
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-family: 'Josefin Sans', sans-serif;
-} */
+}
 
-/* section#clockSite {
-    overflow: hidden;
-} */
+/**************************************
+ Hading Bannar Image Bacground Code 
+ *************************************/
+
 .images .clock {
     background-image: url(../Images/do-not-give-up.jpg);
     padding: 50px;
@@ -54,24 +63,20 @@ h6 {
     color: white;
     height: 220px;
     border-radius: 30px 30px 0px 0px;
-    /* padding: 10px; */
     margin-top: 14px;
 }
 
 .images {
     width: 700px;
-    /* height: 300px; */
-
 }
 
 .clock {
-    /* width: fit-content;
-    margin: auto; */
     text-align: center;
     font-family: 'Comfortaa', cursive !important;
 }
 
 .clock h1 {
+    display: inline;
     text-align: center;
     font-size: 70px;
 }
@@ -80,10 +85,9 @@ h6 {
     display: inline;
 }
 
-.clock h1 {
-    display: inline;
-}
-
+/**************************
+ Todo Text Sction Css Code 
+ *************************/
 section.todoOption {
     overflow: hidden;
     padding: 15px;
@@ -91,11 +95,15 @@ section.todoOption {
     background: #2e3d6894;
     color: white;
     width: 700px;
-    /* text-align: center; */
     border-radius: 0px 0px 10px 10px;
 }
 
+/************************
+ Input Element css Code 
+ ***********************/
 form.inputElement {
+    align-items: center;
+    text-align: center;
     align-items: center;
     text-align: center;
 }
@@ -118,6 +126,10 @@ input::placeholder {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* ********************
+To Do List Item Code 
+************************/
+
 .add a i {
     color: white;
 }
@@ -138,48 +150,19 @@ input::placeholder {
 
 .todo ul li {
     background: red;
-    /* margin: 5px; */
     font-size: 21px;
     font-family: 'Comfortaa', cursive !important;
 }
 
-form.inputElement {
-    align-items: center;
-    text-align: center;
-}
 
 .todo {
-    /* overflow: hidden; */
-    /* width: 70%; */
-    /* margin: auto; */
     width: 80%;
     margin: auto;
 }
-
-/* ul {} */
 
 .todo ul {
     padding: 15px 1px;
     list-style: none;
     margin: auto;
-    /* width: 100%; */
     border-radius: 6px;
 }
-
-/* .todo ul li {
-    padding: 9px 24px;
-    font-size: 20px;
-    background: red;
-    margin: 2px 0px;
-    width: 100%;
-    /* border-radius: 4px; */
-/* }
-
-*/
-/* .todo ul li:first-child {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.todo ul li:last-child {
-    border-radius: 0px 0px 10px 10px;
-} */
